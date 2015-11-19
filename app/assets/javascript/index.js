@@ -1,5 +1,3 @@
-require("!style!css!./../../../style.css");
-var img = require("!style!css!./../../../style.css");
-console.log("hiii");
+import '../stylesheets/base'
 
-const isDeveloping = "dev" !== 'production';
+console.log("hiii");
