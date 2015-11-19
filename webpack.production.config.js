@@ -34,7 +34,22 @@ module.exports = {
     publicPath: '/build'
   },
   plugins: [
-    new ExtractTextPlugin('[name].css')
+      new webpack.optimize.OccurenceOrderPlugin(),
+      new HtmlWebpackPlugin({
+          template: 'app/index.tpl.html',
+          inject: 'body',
+          filename: 'index.html'
+      }),
+      new ExtractTextPlugin('[name]-[hash].min.css'),
+      new webpack.optimize.UglifyJsPlugin({
+          compressor: {
+              warnings: false,
+              screw_ie8: true
+          }
+      }),
+      new webpack.DefinePlugin({
+          'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+      })
   ],
   postcss: [
     autoprefixer({
