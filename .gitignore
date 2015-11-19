@@ -1,0 +1,8 @@
+# Ignore the NPM error log
+npm-debug.log
+
+# Ignore idea folder
+.idea
+
+# Ignore node modules
+/node_modules
