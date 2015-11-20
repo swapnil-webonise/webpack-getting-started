@@ -16,12 +16,16 @@
 3. Done with installation.
 
 # How to use
+   * To run local server
 
-> npm start
-To run local server
+     ```
+     npm start
+     ```
+   * To create build
 
-> npm run build
-To create build
+     ```
+     npm run build
+     ```
 
 # Dependencies
 
