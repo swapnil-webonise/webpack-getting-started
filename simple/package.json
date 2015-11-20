@@ -1,0 +1,31 @@
+{
+  "name": "webpack-getting-started",
+  "version": "1.0.0",
+  "description": "Webpack Getting Started",
+  "main": "index.html",
+  "scripts": {
+    "test": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/swapnil-webonise/webpack-getting-started.git"
+  },
+  "keywords": [
+    "Webpack",
+    "Javascript"
+  ],
+  "author": "Swapnil Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swapnil-webonise/webpack-getting-started/issues"
+  },
+  "homepage": "https://github.com/swapnil-webonise/webpack-getting-started",
+  "dependencies": {
+    "webpack": "~1.12.6",
+    "style-loader": "~0.13.0",
+    "css-loader": "~0.23.0"
+  },
+  "engines": {
+    "node": "5.1.0"
+  }
+}
