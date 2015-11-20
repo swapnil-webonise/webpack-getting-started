@@ -1,3 +1,5 @@
+//Css
 import './app/assets/stylesheets/base.sass';
 
-console.log("entry");
+//Js
+import './app/assets/javascript/index.js';
