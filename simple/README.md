@@ -9,8 +9,15 @@
      $ sudo apt-get install nodejs
      ```
    * Install node packages
-   
+
      ```
      $ npm install
      ```
 3. Done with installation.
+
+# How to use
+   * To compile
+
+     ```
+     webpack
+     ```
