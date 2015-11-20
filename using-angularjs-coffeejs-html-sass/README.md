@@ -1,10 +1,29 @@
-# webpack-getting-started
+# webpack-using-angularjs-coffeejs-html-sass
 
+1. Clone project
+2. Install project dependencies
+   * Install node
 
-How to include the user.yml setting in sublime
-Go to -> "Preferences > settings-user" and past the user.yml
+     ```
+     $ sudo apt-get update
+     $ sudo apt-get install nodejs
+     ```
+   * Install node packages
 
-# dependencies
+     ```
+     $ npm install
+     ```
+3. Done with installation.
+
+# How to use
+
+> npm start
+To run local server
+
+> npm run build
+To create build
+
+# Dependencies
 
 > autoprefixer
 Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
@@ -24,3 +43,6 @@ This command locks down the versions of a package's dependencies so that you can
 
 > eslint
 ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. In many ways, it is similar to JSLint and JSHint with a few exceptions:
+
+# How to include the user.yml setting in sublime
+Go to -> "Preferences > settings-user" and past the user.yml
