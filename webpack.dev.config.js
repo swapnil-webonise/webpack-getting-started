@@ -3,6 +3,8 @@
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var autoprefixer = require('autoprefixer');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   devtool: 'eval-source-map',
@@ -11,7 +13,7 @@ module.exports = {
     path.join(__dirname, 'app/assets/javascript/index.js')
   ],
   output: {
-    path: path.join(__dirname, '/dist/'),
+    path: path.join(__dirname, '/build/'),
     filename: '[name]-[hash].js',
     publicPath: '/'
   },
