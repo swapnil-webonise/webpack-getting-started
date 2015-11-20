@@ -13,7 +13,7 @@ var sassLoaders = [
 
 module.exports = {
   entry: {
-    app: ['./app/assets/javascript/index']
+    app: ['./entry']
   },
   module: {
     loaders: [
