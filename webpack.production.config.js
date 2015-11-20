@@ -29,7 +29,7 @@ module.exports = {
     ]
   },
   output: {
-    filename: '[name].js',
+    filename: '[name]-[hash].min.js',
     path: path.join(__dirname, './build'),
     publicPath: '/build'
   },
