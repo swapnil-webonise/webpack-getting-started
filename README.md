@@ -1,5 +1,9 @@
 # webpack-getting-started
 
+
+How to include the user.yml setting in sublime
+Go to -> "Preferences > settings-user" and past the user.yml
+
 # dependencies
 
 > autoprefixer

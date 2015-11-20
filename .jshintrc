@@ -1,0 +1,9 @@
+{
+  "unused": true,
+  "camelcase": true,
+  "undef": true,
+  "bitwise": true,
+  "curly": true,
+  "browser": true,
+  "globals": {}
+}
