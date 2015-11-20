@@ -1,2 +1,2 @@
-import './../../style.sass';
+import './../stylesheets/base.sass';
 console.log("hiii");
