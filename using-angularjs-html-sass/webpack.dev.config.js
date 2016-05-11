@@ -36,8 +36,15 @@ module.exports = {
       {
         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|ico)$/,
         loader: 'file-loader'
+      },
+      {
+        test: /\.html$/,
+        loader: 'file-loader'
       }
     ]
+  },
+  htmlLoader: {
+    ignoreCustomFragments: [/\{\{.*?}}/]
   },
   output: {
     filename: '[name]-[hash].min.js',

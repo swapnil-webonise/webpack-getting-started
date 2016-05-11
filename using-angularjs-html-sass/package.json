@@ -28,10 +28,6 @@
     "jscs": "jscs ."
   },
   "dependencies": {
-    "jquery": "^2.1.4",
-    "shrinkwrap": "^0.4.0"
-  },
-  "dependencies": {
     "autoprefixer": "^6.0.3",
     "babel": "^5.8.23",
     "babel-core": "^5.8.33",
@@ -61,5 +57,10 @@
   },
   "engines": {
     "node": "5.1.0"
+  },
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6"
   }
 }
